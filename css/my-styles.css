@@ -1,6 +1,14 @@
 #portfolio img {
   float:left;
 }
+
+.headline {
+  padding: 50px;
+  text-align: center;
+}
 p {
   margin: 50px;
+}
+.item p {
+  font-size: 0.9em;
 }
