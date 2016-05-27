@@ -1,1 +1,6 @@
-
+#portfolio img {
+  float:left;
+}
+p {
+  margin: 50px;
+}
