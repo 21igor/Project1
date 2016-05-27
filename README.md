@@ -18,7 +18,7 @@ _There no known bugs. If you find some, please let me know by e-mail: seleznov.i
 
 ## Support and contact details
 
-_Ig you have some troubles or questions please don't hesitate to contact me by e-mail: seleznov.igor@gmail.com_
+_If you have some troubles or questions please don't hesitate to contact me by e-mail: seleznov.igor@gmail.com_
 
 ## Technologies Used
 

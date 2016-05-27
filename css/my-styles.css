@@ -1,3 +1,6 @@
+.my-navbar {
+  padding-right: 15px;
+}
 #portfolio img {
   float:left;
 }
@@ -6,9 +9,22 @@
   padding: 50px;
   text-align: center;
 }
-p {
-  margin: 50px;
-}
 .item p {
   font-size: 0.9em;
+}
+.column {
+  width: 400px;
+  float: left;
+}
+
+.cur-int img {
+  width: 200px;
+  float:left;
+  margin-right: 10px;
+}
+
+.special {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
 }
