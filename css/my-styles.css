@@ -1,43 +1,16 @@
 .my-navbar {
   padding-right: 15px;
 }
-#portfolio img {
-  float:left;
-}
-
-.headline {
-  padding: 50px;
-  text-align: center;
-}
-.item p {
-  font-size: 0.9em;
-}
-.column {
-  width: 400px;
-  float: left;
-}
-
-.cur-int img {
-  width: 200px;
-  float:left;
-  margin-right: 10px;
-}
-
-.special {
-  color: red;
-  font-style: italic;
-  font-weight: bold;
-}
-
-#myCarousel h2, {
-  text-align: center;
-}
 
 
 html, body {
     height: 100%;
 }
 
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
 .container-1 {
     display: flex;
     height: 100%;
@@ -49,7 +22,6 @@ html, body {
     margin:auto;
     color: #fff;    
     z-index: 101;
-    font-size: 2em;
 }
 
 /**************************************
@@ -62,6 +34,7 @@ section.parallax {
     background-attachment: fixed;
     background-size: cover;
 }
+
 section.parallax:after {
     position: absolute;
     left: 0;
@@ -81,3 +54,39 @@ section.parallax.background-1 {
     background-image: url("../img/bg1.jpg");
     height: 100%;
 }
+
+
+
+.carousel-inner h2 {
+  text-align: center;
+}
+
+#portfolio img {
+  float:left;
+}
+
+.headline-1 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.headline-2 {
+  padding: 5% 0 1% 5%;
+}
+
+.item p {
+  font-size: 0.9em;
+}
+
+.cur-int img {
+  width: 200px;
+  float:left;
+  margin-right: 10px;
+}
+
+.special {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
