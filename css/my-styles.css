@@ -16,7 +16,6 @@ h1 {
     height: 100%;
 }
 
-
 .flex {
     text-align: center;
     margin:auto;
@@ -34,18 +33,6 @@ section.parallax {
     background-attachment: fixed;
     background-size: cover;
 }
-
-section.parallax:after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.30);
-    z-index: 100;
-    content: ' ';
-}
-
 
 /**************************************
     Parralax blocks
