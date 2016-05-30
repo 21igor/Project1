@@ -1,18 +1,69 @@
 .my-navbar {
   padding-right: 15px;
 }
+
+
+html, body {
+    height: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+.container-1 {
+    display: flex;
+    height: 100%;
+}
+
+.flex {
+    text-align: center;
+    margin:auto;
+    color: #fff;    
+    z-index: 101;
+}
+
+/**************************************
+    Parralax styles
+**************************************/
+section.parallax {
+    position: relative;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/**************************************
+    Parralax blocks
+**************************************/
+section.parallax.background-1 {
+    background-image: url("../img/bg1.jpg");
+    height: 100%;
+}
+
+
+
+.carousel-inner h2 {
+  text-align: center;
+}
+
 #portfolio img {
   float:left;
 }
 
-.headline {
-  padding: 50px;
+.headline-1 {
+  padding-top: 5%;
   text-align: center;
 }
+
+.headline-2 {
+  padding: 5% 0 1% 5%;
+}
+
 .item p {
   font-size: 0.9em;
 }
-
 
 .cur-int img {
   width: 200px;
@@ -26,55 +77,3 @@
   font-weight: bold;
 }
 
-#myCarousel h2, {
-  text-align: center;
-}
-
-
-html, body {
-    height: 100%;
-}
-
-.container-1 {
-    display: flex;
-    height: 100%;
-}
-
-
-.flex {
-    text-align: center;
-    margin:auto;
-    color: #fff;    
-    z-index: 101;
-    font-size: 2em;
-}
-
-/**************************************
-    Parralax styles
-**************************************/
-section.parallax {
-    position: relative;
-    height: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-section.parallax:after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.30);
-    z-index: 100;
-    content: ' ';
-}
-
-
-/**************************************
-    Parralax blocks
-**************************************/
-section.parallax.background-1 {
-    background-image: url("../img/bg1.jpg");
-    height: 100%;
-}
