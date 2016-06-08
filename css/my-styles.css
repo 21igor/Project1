@@ -2,7 +2,6 @@
   padding-right: 15px;
 }
 
-
 html, body {
     height: 100%;
 }
@@ -11,6 +10,7 @@ h1 {
   font-size: 3em;
   font-weight: 800;
 }
+
 .container-1 {
     display: flex;
     height: 100%;
@@ -23,9 +23,6 @@ h1 {
     z-index: 101;
 }
 
-/**************************************
-    Parralax styles
-**************************************/
 section.parallax {
     position: relative;
     height: auto;
@@ -34,15 +31,10 @@ section.parallax {
     background-size: cover;
 }
 
-/**************************************
-    Parralax blocks
-**************************************/
 section.parallax.background-1 {
     background-image: url("../img/bg1.jpg");
     height: 100%;
 }
-
-
 
 .carousel-inner h2 {
   text-align: center;
@@ -76,4 +68,3 @@ section.parallax.background-1 {
   font-style: italic;
   font-weight: bold;
 }
-
